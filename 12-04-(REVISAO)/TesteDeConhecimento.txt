@@ -1,0 +1,254 @@
+
+/*Javascript é a mesma coisa que Java?
+a) Verdadeiro
+b) Falso <===
+
+Como se declara uma variável em Javascript?
+a) const carName <===
+b) variable carName
+c) new carName
+
+Que operador é usado para dar valor a uma variável?
+a) = <===
+b) -
+c) *
+d) x
+
+Diga o que a seguinte equação retorna: 10 > 9
+a) false
+b) true <===
+c) NaN
+
+Javascript é case-sensitive (que diferencia maiúsculas de minúsculas)?
+a) Sim <=== 
+b) Não
+
+Como se cria uma função em Javascript?
+a) function myFunction() <===
+b) function:myFunction()
+c) function = myFunction()
+
+Como se invoca uma função chamada "myFunction"?
+a) call myFunction()
+b) function MyFunction()
+c) myFunction() <===
+
+Como se escreve o condicional IF em Javascript?
+a) if(i === 5) <===
+b) if i = 5 then
+c) if i = 5
+d) if i == 5 then
+
+Como escrever o condicional IF para executar um código se "i" não for igual a 5?
+a) if(i <> 5)
+b) if (i != 5) <===
+c) if i =! 5 then
+d) if i <> 5
+
+Como um WHILE começa?
+a) while i=1 to 10 
+b) while (i <= 10)
+c) while (i <= 10; i++)
+
+Como um LOOP FOR começa?
+a) for i=1 to 5
+b) for (i=0; i<=5)
+c) for (i<=5; i++)
+d) for (i=0; i<=5; i++) <===
+
+Como se adiciona um comentário em Javascript?
+a)
+b) //Este é um comentário <===
+c) "Este é um comentário"
+
+Como adicionar um comentário com mais de uma linha?
+a) /Este comentário tem mais de uma linha/
+b) /* Este comentário tem 
+mais de uma */ <===
+c) "Este comentário tem mais de uma linha"
+
+Qual é a maneira correta de escrever um array?
+a) const colors = ['red', 'green', 'blue'] <===
+b) const colors = 'red', 'green', 'blue'
+c) const colors = [1: 'red', 2: 'green', 3: 'blue']
+d) const colors = ['red'], ['green'], ['blue']
+*/
+
+|=======================================================================================================================================|
+|=======================================================================================================================================|
+|=======================================================================================================================================|
+|=======================================================================================================================================|
+|=======================================================================================================================================|
+|=======================================================================================================================================|
+|=======================================================================================================================================|
+|=======================================================================================================================================|
+
+Exercícios de Programação
+
+Variáveis
+
+Crie uma variável chamada carName e atribua o valor Maverick a ela:
+
+let carName = Maverick
+
+Crie uma variável chamada x e atribua o valor 50 a ela:
+
+let x = 50
+
+Exiba a soma de 5 + 10 usando duas variáveis x e y:
+
+let x = 5 
+let y = 10
+soma = x + y
+console.log(soma)
+
+Complete o código criando uma variável z, atribuindo x + y a ela e exibindo o resultado:
+
+let x = 5
+let y = 10
+let z = x + y
+console.log(z)
+
+Declare estas três variáveis em uma única linha:
+
+let x=5;let y=10;let z=x+y
+
+Operadores
+Multiplique 10 por 5 e exiba o resultado:
+
+let x = 10
+let y = 5
+let multiplique = x*y
+console.log(multiplique)
+
+Exiba o resto da divisão de 15 por 9:
+
+
+
+Use o operador de atribuição correto para fazer x ser igual a x + y:
+
+x = x+y
+
+Use o operador de atribuição correto para fazer x ser igual a x * y:
+
+x *= y
+
+Tipos de Dados
+Use comentários para descrever o tipo correto de cada variável:
+
+//let
+//const
+//function
+//objeto
+
+Funções
+Execute a função chamada myFunction:
+
+myFunction()
+
+Complete o código, criando uma função chamada myFunction:
+
+function myFunction()
+
+Complete o código para retornar "Hello":
+
+console.log("Hello World.")
+
+Objetos
+Mostre a informação "John" em um console.log:
+
+let "John" = {
+  nome:"John",
+  idade:255,
+  peso:66
+}
+
+Adicione a propriedade country: Norway ao objeto person:
+
+let person = {
+  country:"Norway"
+}
+
+Crie um objeto e exiba uma mensagem:
+
+let objeto = {
+  atributo: "generico"
+}
+console.log("Mensagem")
+
+Strings
+Exiba o comprimento de txt:
+
+let string = "esta é uma mensagem"
+console.log(string.length)
+
+Concatene duas strings:
+
+let string1 = "esta é uma"
+let string2 = "mensagem pela metade"
+console.log(string1+string2)
+
+Converta para maiúsculas:
+
+console.log(string.toUpperCase)
+
+Substitua "Hello" por "Welcome":
+
+
+
+Arrays
+
+let marca = ["Volvo","VolksWagen","Jeep"]
+let fruta = ["Orange","Apple"]
+
+Mostre "Volvo":
+
+console.log(marcas[0])
+
+Mude o primeiro item para "Ford":
+
+marca[0] = "Ford"
+
+Mostre o número de itens:
+
+console.log(marca.length)
+
+Remova o último item:
+
+marca.pop()
+
+Adicione "Kiwi":
+
+fruta.push("Kiwi")
+
+Remova "Orange" e "Apple":
+
+fruta.splice(0,2)
+
+Condicionais
+Mostre "Hello World" se x for maior que y:
+
+#### Mostre "Hello World" ou "Goodbye":
+
+
+---
+
+### Loops
+
+#### Loop `for` de 0 a 9:
+
+for (x=0; x < 9; x++)
+
+
+#### Loop `while` com incremento de 2:
+
+for(x=0; x < 10; x + 2)
+
+|=======================================================================================================================================|
+|=======================================================================================================================================|
+|=======================================================================================================================================|
+|=======================================================================================================================================|
+|=======================================================================================================================================|
+|=======================================================================================================================================|
+|=======================================================================================================================================|
+|=======================================================================================================================================|
