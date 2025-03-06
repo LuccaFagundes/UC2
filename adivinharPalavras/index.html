@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Codificalção UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Tornando o site responsivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título que aparece na aba do navegador -->
+    <title>TERMO DOS BOY</title>
+    <!-- Vínculo com o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Caixa que contém todo o conteúdo do jogo -->
+    <div class="container">
+        <!-- Título principal do Jogo -->
+        <h1> Termo dos boy </h1>
+        <!-- Imagem no topo do Jogo -->
+        <img id="imagem-topo" src="IMAGENS/the bois.jpg" alt="annoying orange but you took your medication" style="width: 100%; max-width: 200px; height: auto; border-radius: 10px;">
+        <!-- Seção onde a palavra secreta misteriosa será mostrada -->
+        <div id="palavra">
+            <h2> Palavra: </h2>
+        <!-- Aqui será atualizada a palavra secreta com as letras e espaços -->
+        <div id="palavra-secreta"></div>
+        <!-- Mostrar o número de letras da palavra secreta -->
+    </div>
+
+    <div id="numero-letras" >
+        <h3 id="numero-letras"> Número de letras: 0 </h3>
+    </div>
+
+        <!-- Divisória onde o número de tentativas restantes será mostrado para cpx -->
+    <div id="tentativas">
+          <h3> Tentativas Restantes : <span id="tentativas-contagem"> 42 </span> </h3>
+    </div>
+        
+        <!-- caixa de entra onde o usuário pode digitar uma letra -->
+         <input type="text" id="letra" maxlength="1" placeholder="Digite uma letra "/>
+
+        <!-- Botão que chama a função 'verificarLetra' quando pressionado -->
+         <button onclick="verificarLetra()"> Chutar </button>
+        
+        <!-- Aqui será mostrada a mensagem do jogo, informando o resulatado do chute -->
+         <p id="mensagem"></p>
+
+        <!-- Botão que reinicia o jogo -->
+        <button onclick="reiniciarJogo()"> Reiniciar Jogo </button>
+
+        <div id="imagem-resultado">
+        
+         <!-- Imagens que indicam se o chute foi correto ou incorreto -->
+        <img id="imagem-acerto" src="IMAGENS/Be good.jpg" alt="Acerto"/>
+
+        <!-- Imagem que aparece quando o jogador erra a letra -->
+        <img id="imagem-erro" src="IMAGENS/YOU SHOULD.jpg" alt="Erro"/>
+    </div>
+</div>
+
+    <!-- Aqui fazemos a chamada do JavaScript -->
+     <script src="script.js"></script>
+
+</body>
+
+</html>

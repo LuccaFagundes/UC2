@@ -1,0 +1,96 @@
+/* Estilo geral do corpo da página */
+body{
+    background-color: rgb(76, 159, 159); /* Cor do fundo */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Tipo de fonte */
+    display: flex; /* Usando o modelo flexbox para organizar o conteúdo */
+    align-items: center; /* Centralizar verticalmente o conteúdo */
+    height: 100vh; /* Altura ocupa 100% da altura da janela */
+    margin: 0; /* Remove a margem padrão do navegador */ 
+}
+/* Estilo da caixa que contém o conteúdo */
+.container{
+    text-align: center; /* Centraliza o texto dentro da caixa */
+    width: 80%; /* A largura da caixa é 80% da largura da tela */
+    max-width: 500px; /* A largura máxima da caixa será 500px */
+    margin: auto; /* Centraliza a caixa horizontalmente */
+}
+/* Organizando as imagens */ 
+#imagem-topo, #palavra-secreta{
+    display: inline-block; /* Coloca a imagem e a palavra ao lado dos outros itens */
+    vertical-align: middle; /* Alinha verticalmente no centro */
+    margin: 10px; /* Adiciona um pequeno espaço entre os itens */
+
+}
+/* colocando a imagem na parte superior */
+#imagem-topo{
+    width: 150px; /* Largura da imagem do no topo */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Arredondando as bordas */
+    box-shadow: 0 6px 10px #000000;
+}
+/* Estilo para a área onde a palvra secreta é mostrada */
+#palavra-secreta{
+    font-size: 2em; /* Define o tamanho da fonte da palavra secreta ( em é uma unidade de medida que significa o drobro da fonte */ 
+}
+/* Estilo da área para o número de letras */
+#numero-letras{
+    font-size: 1.5em; /* Tamanho da fonte para o número de letras */
+    margin: 10px 0; /* Espaço em cima e embaixo */
+}
+/* Estilo da área de mensagens */
+#mensagem{
+    font-size: 1.2em; /* Tamanho de fonte moderado para as mensagens */
+    margin: 20px; /* Espaçamento ao redor da área */    
+}
+/* Estilo para a caixa de entrada de letras */
+input{
+    font-size: 1.2em; /* Aumenta o tamanho da fonte na caixa de entrada */
+    padding: 5px; /* Adiciona um pequeno equenino espaço dentro da caixa de entrada */
+    margin-top: 20px; /* Adiciona um espaço acima da caixa */
+    display: inline-block; /* Coloca a caixa de entrada ao lado dos outros itens */
+    border-radius: 30px;
+
+}
+/* Estilo do botão */
+button{
+    font-size: 1.2em; /* Define o tamanho da fonte do botão */
+    padding: 10px 20px; /* Adiciona espaçamento dentro do botão */
+    margin-top: 20px; /* Espaço acima do botão */
+    background-color: rgb(214, 139, 85);
+    color: rgb(8, 95, 43);
+    border: none; /* Remove a borda padrão do botão */
+    cursor: no-drop;
+    transition: background-color 0.6s; /* Transição suave na mudança de cor */
+    border-radius: 30px;
+}
+/* Efeito quando o usuário passar o mouse sobre o botão */
+button:hover{
+    background-color: rgb(146, 82, 26);
+    color: rgb(53, 32, 73);
+}
+#tentativas-contagem{
+    font-size: 1.5em; /* Define o tamanho da fonte da contagem das tentativas */
+    font-weight: bold; /* Torna a fonte em negrito */
+    margin-top: 20px; /* Adiciona um espaço acima da contagem */
+}
+/* Estilo para as imagens de acerto e erro */
+#imagem-acerto, #imagem-erro{
+    width: 150px; /* Define o tamanho das imagens de acerto e erro */
+    height: 150px; /* Define a altura das imagens */ 
+    object-fit: cover; /* Ajustar a imagem parar cobrir a área sem distorção */
+    margin: 20px auto; /* Centraliza as imagens */
+    display: none; /* Inicialmente, as imagens NÃO são exibidas */
+    border-radius: 50%; /* Torna as imagens redondas */
+}
+/* Estilo para a linha com os botões */
+.buttons{
+    display: flex; /* Usando flexbox para os botões ficarem em linhas */
+    justify-content: center; /* Centralizando os botões na linha */
+    margin-top: 20px; /* Espaço acima da linha de botões */
+    width: 100%; /* Garante que os botões ocupem a largura total da tela */
+}
+/* Organizar os botões na horizontal , mantendo layout alinhado */ 
+input,button, .buttons{
+    display: inline-block; /* Coloca os elementos em linha */
+    margin-top: 10px; /* Margem para o espaçamento entre os itens */
+}
