@@ -1,0 +1,58 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #225193;
+}
+.container{
+    color: rgb(191, 220, 140);
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.categoria{
+    margin-bottom: 50px;
+}
+.categoria h2{
+    color: rgb(191, 220, 140);
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.filmes{
+    display: flex;
+   /* overflow-x: auto; /* Permite Rolar horizontalmente */
+    padding-bottom: 10px; /* Para o efeito de rolagem sem cortas as bordas */
+}
+.filme{
+    width: 300px;
+    background-color: rgb(78, 4, 78);
+    margin-right: 20px; /* Espaçamento entre os filmes */
+    border-radius: 10px;
+    box-shadow: 0 8px 14px black;
+    padding: 10px;
+    text-align: center;
+    flex-shrink: 0; /* Impede que os filmes "encolham" */
+    transition: tranform 0.6; /* Para dar um tchan na nossa aplicação ( adiciona uma animação ao passar o mouse ) */
+}
+.filme:hover{
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+.filme img{
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+}
+.filme h3{
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+}
+.filme p{
+    font-size: 14px;
+    color: yellow;
+    margin: 5px 0;
+}
